@@ -1,0 +1,114 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+@media (min-width:1000px){
+  #title{
+    height:100vh; 
+  }
+}
+
+#title h1{
+  font-size:4rem;
+}
+#title{
+  padding-top:5px;
+  padding-bottom:0;
+}
+#title button{
+  margin-top:20px;
+  font-size:1.75rem;
+}
+.play-store{
+  border-color:white;
+  color:white;
+}
+.play-store:hover {
+  background-color: white;
+  color:black;
+  border: none;
+}
+
+#features .floating{
+  float:left;
+  width:12.5%;
+  margin-bottom:25px;
+
+}
+#features svg{
+  color:black;
+}
+.aligning{
+  text-align:center;
+}
+
+.goldenr{
+  margin-top:50px;
+  border-radius: 50%;
+}
+.test{
+  font-size:32px;
+}
+#testimonial{
+  background-color:rgb(244, 244, 244);
+
+}
+#testimonial h1{
+  font-weight:500;
+}
+.sponsors{
+  margin-top:70px;
+}
+@media  (min-width:768px) and (max-width:1100px) {
+.sponsors > div{
+  padding-top:30px;
+}
+}
+@media (max-width:767px){
+  .sponsors > div{
+    padding-top:30px;
+  }
+}
+
+.pricehead{
+  text-align:center;
+}
+.pricehead > h2{
+  font-size:75px;
+  font-weight:400;
+}
+.pricehead > p{
+  font-size:28px;
+  padding-bottom:50px;
+  padding-top:10px;
+}
+
+
+#footer > footer{
+  padding-left:100px;
+  font-size:20px;
+}
